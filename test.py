@@ -31,7 +31,7 @@ acceptall=["Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=
 
 ip = str("herovoid.com")
 port = int("4510")
-pack = int("300")
+pack = int("50")
 thread = int("200")
 def start():
     global useragents, ref, acceptall
